@@ -3,6 +3,6 @@ let
 in
   pkgsUnstable.mkShell {
     buildInputs = [
-      pkgsUnstable.nodejs-18_x
+      pkgsUnstable.deno
     ];
   }
